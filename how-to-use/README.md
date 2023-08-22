@@ -1,6 +1,6 @@
 # How to Use
 
-Now that you have tested your chatflow with the chat interface on Flowise, you want to "export" it out to be able to use with other applications. Flowise provides 2 ways to do that:
+Now that you have tested your chatflow with the chat interface on Convosuite, you want to "export" it out to be able to use with other applications. Convosuite provides 2 ways to do that:
 
 * API
 * Embed
@@ -17,7 +17,7 @@ You also have the flexibility to override input configuration with **overrideCon
 
 An example of API call using Postman:
 
-<figure><img src="../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 <table><thead><tr><th width="161">Key</th><th>Description</th><th>Type</th><th>Required</th></tr></thead><tbody><tr><td>question</td><td>User's question</td><td>string</td><td>Yes</td></tr><tr><td>overrideConfig</td><td>Override existing flow configuration</td><td>object</td><td>No</td></tr><tr><td>history</td><td>Provide list of history messages to the flow</td><td>array</td><td>No</td></tr></tbody></table>
 
@@ -57,43 +57,9 @@ An example of API call with `form-data` using Postman:
 
 <figure><img src="../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
-An example of API call using Python
-
-```python
-import requests
-
-API_URL = "your-flowise-api"
-
-# use form data to upload files
-form_data = {
-    "files": ('state_of_the_union.txt', open('state_of_the_union.txt', 'rb'))
-}
-
-body_data = {
-    "question": "what is this document about?",
-    "returnSourceDocuments": True
-}
-
-def query(form_data):
-    response = requests.post(API_URL, files=form_data, data=body_data)
-    print(response)
-    return response.json()
-
-output = query(form_data)
-print(output)
-```
-
-Watch how to connect to [Bubble](https://bubble.io/)
-
-{% embed url="https://youtu.be/kOwmPe8aLAA" %}
-
-Watch how to connect to [FlutterFlow](https://flutterflow.io/)
-
-{% embed url="https://youtu.be/iI84yym473Q" %}
-
 ## Streaming
 
-Flowise also support streaming back to your front end application when the final node is a **Chain** or **OpenAI Function Agent.**
+Convosuite also support streaming back to your front end application when the final node is a **Chain** or **OpenAI Function Agent.**
 
 <figure><img src="../.gitbook/assets/screely-1687030897806.png" alt=""><figcaption></figcaption></figure>
 
@@ -198,39 +164,4 @@ Watch how to do that:
 
 {% embed url="https://github.com/FlowiseAI/Flowise/assets/26460777/c128829a-2d08-4d60-b821-1e41a9e677d0" %}
 
-You can also customize your own embedded chat widget UI and pass **chatflowConfig** JSON object to override existing config. See [configuration list](https://github.com/FlowiseAI/FlowiseChatEmbed#configuration).
-
-To modify the full source code of embedded chat widget, follow these steps:
-
-1. Fork the [Flowise Chat Embed](https://github.com/FlowiseAI/FlowiseChatEmbed) repository
-2. Then you can make any code changes. One of the popular ask is to remove Flowise [branding](https://github.com/HenryHengZJ/FlowiseChatEmbed-Test/blob/main/src/components/Bot.tsx#L337).
-3. Run `yarn build`
-4. Push changes to the forked repo
-5. You can then use it as embedded chat like so:
-
-Replace `username` to your Github username, and `forked-repo` to your forked repo.
-
-<pre class="language-html"><code class="lang-html"><strong>&#x3C;script type="module">
-</strong>      import Chatbot from "https://cdn.jsdelivr.net/gh/username/forked-repo/dist/web.js"
-      Chatbot.init({
-          chatflowid: "chatflow-id",
-          apiHost: "http://localhost:3000",
-      })
-&#x3C;/script>
-</code></pre>
-
-<figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt="" width="563"><figcaption></figcaption></figure>
-
-```html
-<script type="module">
-      import Chatbot from "https://cdn.jsdelivr.net/gh/HenryHengZJ/FlowiseChatEmbed-Test/dist/web.js"
-      Chatbot.init({
-          chatflowid: "chatflow-id",
-          apiHost: "http://localhost:3000",
-      })
-</script>
-```
-
-Watch how to embed Flowise in a Bootstrap 5 website
-
-{% embed url="https://youtu.be/4paQ2wObDQ4" %}
+1.

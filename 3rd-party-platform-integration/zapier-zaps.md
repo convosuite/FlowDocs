@@ -3,7 +3,7 @@
 ## Prerequisite
 
 1. [Log in](https://zapier.com/app/login) or [sign up](https://zapier.com/sign-up) to Zapier
-2. Refer [deployment](../deployment/) to create a cloud hosted version of Flowise.
+2. Refer [deployment](broken-reference) to create a cloud hosted version of Flowise.
 
 ## Setup
 

@@ -2,8 +2,6 @@
 
 Watch how to use custom tools
 
-{% embed url="https://youtu.be/HSp9LkkTVY0" %}
-
 ## Problem
 
 Function usually takes in structured input data. Let's say you want the LLM to be able to call Airtable Create Record [API](https://airtable.com/developers/web/api/create-records), the body parameters has to be structured in a specific way. For example:
@@ -265,14 +263,14 @@ You can import any built-in NodeJS [modules](https://www.w3schools.com/nodejs/re
 1. To import any non-supported libraries, you can easily add the new npm package to `package.json` in `packages/components` folder.
 
 ```bash
-cd Flowise && cd packages && cd components
+cd Convosuite && cd packages && cd components
 yarn add <your-library>
 cd .. && cd ..
 yarn install
 yarn build
 ```
 
-2. Then, add the imported libraries to `TOOL_FUNCTION_EXTERNAL_DEP` environment variable. Refer [#builtin-and-external-dependencies](../environment-variables.md#builtin-and-external-dependencies "mention") for more details.
+2. Then, add the imported libraries to `TOOL_FUNCTION_EXTERNAL_DEP` environment variable. Refer [Broken link](broken-reference "mention") for more details.
 3. Start the app
 
 ```
@@ -284,10 +282,6 @@ yarn start
 ```javascript
 const axios = require('axios')
 ```
-
-Watch how to add additional dependencies and import libraries
-
-{% embed url="https://youtu.be/0H1rrisc0ok" %}
 
 #### Override Function from API
 

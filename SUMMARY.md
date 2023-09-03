@@ -19,3 +19,4 @@
 * [Migration Guide](migration-guide.md)
 * [Use Cases](use-cases/README.md)
   * [Web Scrape QnA](use-cases/web-scrape-qna.md)
+  * [Build a Lead Generation Chatbot into your website.](use-cases/build-a-lead-generation-chatbot-into-your-website..md)

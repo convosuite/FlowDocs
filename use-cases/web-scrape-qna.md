@@ -41,7 +41,7 @@ _**Few things to keep in mind**_
 
     You've made this chatbot for an website. Everything was working fine. But after restarting this issue appeared
 
-    ![](../.gitbook/assets/image.png)
+    ![](<../.gitbook/assets/image (1).png>)
 
 Understanding the exact cause of this issue can be quite intricate, so let's focus on the solution for now. As you follow these steps, the underlying reasons should become clearer.
 
@@ -54,7 +54,7 @@ Understanding the exact cause of this issue can be quite intricate, so let's foc
     * If the above vectors are visible, return to the flow.
     * Here, remove the splitter and scraper nodes.
 
-    ![](<../.gitbook/assets/image (1).png>)
+    ![](<../.gitbook/assets/image (1) (1).png>)
 4.  **Modifying Pinecone Nodes**:
 
     * Replace the "Pinecone Upsert Document" node with the "Pinecone Load Existing Index" node.

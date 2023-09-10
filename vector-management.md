@@ -39,3 +39,5 @@ _Functionalities:_
 ![](<.gitbook/assets/image (8).png>)
 
 ![](<.gitbook/assets/image (12).png>)
+
+![](.gitbook/assets/image.png)

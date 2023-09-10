@@ -45,9 +45,7 @@ Send a Zoho email to support@convosuite.com, body content is Testing Zapier NLA.
 
 5\. You should see the email arrived in your Zoho mailbox
 
-
-
-<figure><img src="../.gitbook/assets/Zapier NLA.png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/image (31).png>)
 
 ## Resources
 

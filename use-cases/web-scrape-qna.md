@@ -17,7 +17,7 @@ If you do not specify anything, by default only the given URL page will be scrap
 * **Get Relative Links Method** - how to crawl all relative links, Web Crawl or Sitemap
 * **Get Relative Links Limit** - how many links to crawl, set 0 to crawl all
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (5).png" alt="" width="563"><figcaption></figcaption></figure>
 
 When you open the chat and start asking question, all links will be scraped and upserted into vector database (Pinecone in this case).
 
@@ -37,16 +37,44 @@ _**Few things to keep in mind**_
 * In the other words, we store the flow state, and if a new save is done, we check if `existing state == new state`, if not, do upsert, if yes, ignore.
 * However, sometimes you might want to change some settings like metadata but you don't want another upsert to be done again.
 * Therefore, it is generally recommended to create another flow to load the existing index from vector store.
+*   ## How to solve TypeError: Cannot read properties of undefined
+
+    You've made this chatbot for an website. Everything was working fine. But after restarting this issue appeared
+
+    ![](../.gitbook/assets/image.png)
+
+Understanding the exact cause of this issue can be quite intricate, so let's focus on the solution for now. As you follow these steps, the underlying reasons should become clearer.
+
+1. **Restarting and the Issue**: You've observed that restarting seems to lead to the problem. While this action appears problematic, it's not necessarily a fault in the true sense.
+2. **Checking Pinecone**:
+   * Begin by heading to the Pinecone dashboard.
+   * If you started with an empty Pinecone index, you should still see vectors from before the restart.
+3.  **Adjusting in the Flow**:
+
+    * If the above vectors are visible, return to the flow.
+    * Here, remove the splitter and scraper nodes.
+
+    ![](<../.gitbook/assets/image (1).png>)
+4.  **Modifying Pinecone Nodes**:
+
+    * Replace the "Pinecone Upsert Document" node with the "Pinecone Load Existing Index" node.
+    * Ensure you update the parameters of this new node, especially if you've assigned specific names to your index or have added metadata during your scrape.
+
+    ![](<../.gitbook/assets/image (2).png>)
+5. **Finalizing the Setup**:
+   * Conclude by saving your changes and refreshing the system. After this, everything should be back on track!
+
+
 
 ### Load Existing Index Flow
 
 This flow is used to load an existing index/collection from vector store, typically after you have upserted the documents to that particular index/collection.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 If you have specified namespace or metadata from the upsert flow, remember to specify here as well, under the **Additional Parameters** in Pinecone node.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (4).png" alt="" width="563"><figcaption></figcaption></figure>
 
 It is recommended to specify a system message for the **Conversational Retrieval QA Chain**. For example, you can specify the name of AI, the language to answer, the response when answer its not found (to prevent hallucination).
 
@@ -69,3 +97,4 @@ You can also turn on the Return Source Documents option to return a list of docu
 The same logic can be applied to any document use cases, not just limited to web scraping.
 
 If you have any suggestion on how to improve the performance, we'd love your contribution!
+

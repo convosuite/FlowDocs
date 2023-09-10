@@ -1,3 +1,3 @@
 # Document Loaders
 
-coming soon... 👷🚧👷
+Document loaders allow you to load documents from different sources like PDF, TXT, CSV, Notion, Confluence etc. They are often used together with [Vector Stores](vector-stores/) to be upserted as embeddings, which can then retrieved upon query.

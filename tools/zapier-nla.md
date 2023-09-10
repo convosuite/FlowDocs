@@ -38,10 +38,10 @@
 3. Ask MRKL Agent to perform action
 
 ```
-Send a Zoho email to test@domain.com, body content is Testing Zapier NLA.
+Send a Zoho email to support@convosuite.com, body content is Testing Zapier NLA.
 ```
 
-<figure><img src="../.gitbook/assets/zapier/nla/8.png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/image (30).png>)
 
 5\. You should see the email arrived in your Zoho mailbox
 

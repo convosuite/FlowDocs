@@ -7,6 +7,8 @@ description: >-
 
 # Chroma
 
+## [vector-management.md](../vector-management.md "mention").
+
 ## Self host Prerequisite
 
 1. Download & Install [Docker ](https://www.docker.com/)and [Git](https://git-scm.com/)

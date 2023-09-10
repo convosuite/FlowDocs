@@ -30,6 +30,8 @@ Goal: Let the customer support chatbot ask the leads for them name , email, phon
 
 Custom Tools example:
 
+## ![](<../.gitbook/assets/image (50).png>)
+
 <figure><img src="../.gitbook/assets/image (3) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 _<mark style="color:blue;">What are the latest news about this stock that might cause the price movement?</mark>_

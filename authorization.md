@@ -1,13 +1,34 @@
 # Authorization
 
-Flow has 2 authorization:
+convosuite has 3 authorization:
 
-* App level
+* Main App level
+* Flow App level
 * Chatflow level
 
-## App Level
+## Main App level&#x20;
 
-App level authorization protects your Flow instance by username and password. This protects your apps from being accessible by anyone when deployed online.
+Main app-level authorization grants you access to the main dashboard. You can invite your team, and after accepting the invitation, team members can log in. They will have access to internal tools. Users create their own password during the invitation process and subsequently log in using their username and password. This ensures that your main apps remain protected and are not accessible by just anyone when deployed online.
+
+![](<.gitbook/assets/image (34).png>)
+
+![](<.gitbook/assets/image (40).png>)
+
+![](<.gitbook/assets/image (46).png>)
+
+![](<.gitbook/assets/image (47).png>)
+
+![](<.gitbook/assets/image (48).png>)
+
+![](<.gitbook/assets/image (49).png>)
+
+
+
+
+
+## Flow App Level
+
+Flow App level authorization protects your Flow instance by username and password. This protects your apps from being accessible by anyone when deployed online.
 
 <figure><img src=".gitbook/assets/Authorization.png" alt=""><figcaption></figcaption></figure>
 

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to Convosuite Flow](README.md)
+* [Welcome to Convosuite](README.md)
 * [Authorization](authorization.md)
 * [How to Use](how-to-use/README.md)
 * [Document Loaders](document-loaders.md)

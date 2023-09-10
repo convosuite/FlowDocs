@@ -5,4 +5,5 @@ A vector store or vector database refers to a type of database system that speci
 
 * ​​​[Upsert Document](../use-cases/web-scrape-qna.md)
 * ​[Load Existing Index/Table​](../use-cases/web-scrape-qna.md)
+* [Vector Management](../vector-management.md)
 

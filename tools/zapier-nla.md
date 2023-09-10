@@ -25,24 +25,25 @@
 
 ### Convosuite
 
-1.  Go to **Marketplaces**, scroll to the very bottom and click **Zapier NLA**
+1. Go to **Marketplaces**, scroll to the very bottom and click **Zapier NLA**
 
-    <figure><img src="../.gitbook/assets/zapier/nla/5.png" alt=""><figcaption></figcaption></figure>
-2.  Click **Use Template**
+![](<../.gitbook/assets/image (13).png>)
+
+1.  Click **Use Template**
 
     <figure><img src="../.gitbook/assets/zapier/nla/6.png" alt=""><figcaption></figcaption></figure>
-3.  Fill in required fields **OpenAI Api Key** and **Zapier NLA API Key**, click **Save Chatflow**
+2.  Fill in required fields **OpenAI Api Key** and **Zapier NLA API Key**, click **Save Chatflow**
 
     <figure><img src="../.gitbook/assets/zapier/nla/7.png" alt=""><figcaption></figcaption></figure>
-4. Ask MRKL Agent to perform action
+3. Ask MRKL Agent to perform action
 
 ```
-Send a Zoho email to chungyau.ong@flowiseai.com, body content is Testing Zapier NLA.
+Send a Zoho email to test@domain.com, body content is Testing Zapier NLA.
 ```
 
 <figure><img src="../.gitbook/assets/zapier/nla/8.png" alt=""><figcaption></figcaption></figure>
 
-5\. Voila \[🎉]\(https://emojipedia.org/party-popper/) you should see the email arrived in your Zoho mailbox
+5\. You should see the email arrived in your Zoho mailbox
 
 
 

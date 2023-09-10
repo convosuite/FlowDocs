@@ -88,7 +88,7 @@ import socketIOClient from 'socket.io-client'
 3. Establish connection
 
 ```javascript
-const socket = socketIOClient("http://localhost:3000") //flowise url
+const socket = socketIOClient("http://localhost:3000") //flow url
 ```
 
 4. Listen to connection

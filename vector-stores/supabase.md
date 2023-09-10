@@ -3,22 +3,26 @@
 ## Prerequisite
 
 1. Register an account for [Supabase](https://supabase.com/)
-2.  Click **New project**\\
+2. Click **New project**\\
 
-    <figure><img src="../.gitbook/assets/image (8) (2) (1).png" alt=""><figcaption></figcaption></figure>
-3.  Input required fields\
-    **Name**, name of the project to be created. (e.g. Flowise)\
-    **Database** Password, password to your postgres database. (e.g. click **Generate a password**)\\
+![](<../.gitbook/assets/image (14).png>)
 
-    <figure><img src="../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
-4. Click **Create new project** and wait for the project to finish setting up
-5.  Click **SQL Editor**\\
+1. Input required fields\
+   **Name**, name of the project to be created. (e.g. convosuite)\
+   **Database** Password, password to your postgres database. (e.g. click **Generate a password**)\\
 
-    <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-6.  Click **New query**\\
+![](<../.gitbook/assets/image (17).png>)
 
-    <figure><img src="../.gitbook/assets/image (36) (1).png" alt=""><figcaption></figcaption></figure>
-7.  Copy & Paste [query ](https://js.langchain.com/docs/modules/indexes/vector\_stores/integrations/supabase#create-a-table-and-search-function-in-your-database)and run it by `Ctrl + Enter` or click **RUN**\
+1. Click **Create new project** and wait for the project to finish setting up
+2. Click **SQL Editor**\\
+
+![](<../.gitbook/assets/image (20).png>)
+
+1. Click **New query**\\
+
+![](<../.gitbook/assets/image (24).png>)
+
+1.  Copy & Paste [query ](https://js.langchain.com/docs/modules/indexes/vector\_stores/integrations/supabase#create-a-table-and-search-function-in-your-database)and run it by `Ctrl + Enter` or click **RUN**\
     **Table name**: documents\
     **Query name**: match\_documents
 
@@ -63,8 +67,6 @@
     $$;
 
     ```
-
-    <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ## Setup
 

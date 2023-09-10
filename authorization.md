@@ -1,13 +1,13 @@
 # Authorization
 
-Flowise has 2 authorization:
+Flow has 2 authorization:
 
 * App level
 * Chatflow level
 
 ## App Level
 
-App level authorization protects your Flowise instance by username and password. This protects your apps from being accessible by anyone when deployed online.
+App level authorization protects your Flow instance by username and password. This protects your apps from being accessible by anyone when deployed online.
 
 <figure><img src=".gitbook/assets/Authorization.png" alt=""><figcaption></figcaption></figure>
 

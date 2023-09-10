@@ -1,6 +1,6 @@
 # Custom Tool
 
-Watch how to use custom tools
+
 
 ## Problem
 

@@ -7,6 +7,8 @@ description: >-
 
 # Build a Lead Generation Chatbot into your website.
 
+#### [custom-tool.md](../tools/custom-tool.md "mention")
+
 #### Understanding Lead Generation Chatbots
 
 Lead generation chatbots are specialized tools, either powered by artificial intelligence (AI) or based on predefined rules, that focus on identifying prospective clients. They gather essential contact details and can effectively introduce products or services in the context of a natural conversation.

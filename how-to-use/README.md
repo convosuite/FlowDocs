@@ -160,8 +160,5 @@ Simply copy paste the embedded code provided to anywhere in the `<body>` tag of 
 
 <figure><img src="../.gitbook/assets/image (8) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Watch how to do that:
 
-{% embed url="https://github.com/FlowiseAI/Flowise/assets/26460777/c128829a-2d08-4d60-b821-1e41a9e677d0" %}
 
-1.

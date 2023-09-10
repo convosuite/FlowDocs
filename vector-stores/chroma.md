@@ -1,6 +1,13 @@
+---
+description: >-
+  Chroma: The AI-native, open-source embedding database. We offer a fully
+  managed, scalable deployment on AWS and Azure, complete with a Vector
+  Management UI.
+---
+
 # Chroma
 
-## Prerequisite
+## Self host Prerequisite
 
 1. Download & Install [Docker ](https://www.docker.com/)and [Git](https://git-scm.com/)
 2. Clone [Chroma's repository](https://github.com/chroma-core/chroma) with your terminal

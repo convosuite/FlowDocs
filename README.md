@@ -1,3 +1,10 @@
+---
+description: >-
+  Experience ChatGPT For Team: Get unmatched enterprise-level security, faster
+  GPT-4 access, extended context windows for longer input processing, superior
+  data analytics, personalization features.
+---
+
 # Welcome to Convosuite
 
 <figure><img src=".gitbook/assets/dashboard.gif" alt=""><figcaption></figcaption></figure>

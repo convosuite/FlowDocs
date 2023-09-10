@@ -6,6 +6,8 @@ description: The universal UI and tool suite for managing vector databases at sc
 
 **Quick!** _Exactly_ what information is embedded in your Pinecone or Chroma vector database?&#x20;
 
+<figure><img src=".gitbook/assets/vectormanagement.gif" alt=""><figcaption></figcaption></figure>
+
 The Vector Management UI Suite for Vector Databases can reduce embedding costs by 75% and allows you to upload large folders directly.&#x20;
 
 _Overview:_\

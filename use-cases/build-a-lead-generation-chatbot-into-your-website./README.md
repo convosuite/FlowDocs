@@ -7,11 +7,11 @@ description: >-
 
 # Build a Lead Generation Chatbot into your website.
 
-#### [custom-tool.md](../tools/custom-tool.md "mention")
+#### [custom-tool.md](../../tools/custom-tool.md "mention")
 
 ####
 
-<figure><img src="../.gitbook/assets/collect leads.gif" alt=""><figcaption><p>A customer support chatbot asks visitors for their contact details and sends the information to Slack using the OpenAI call function</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/collect leads.gif" alt=""><figcaption><p>A customer support chatbot asks visitors for their contact details and sends the information to Slack using the OpenAI call function</p></figcaption></figure>
 
 #### Understanding Lead Generation Chatbots
 

@@ -7,6 +7,8 @@
 
 ![](<../.gitbook/assets/image (14).png>)
 
+![](<../.gitbook/assets/image (25).png>)
+
 1. Input required fields\
    **Name**, name of the project to be created. (e.g. convosuite)\
    **Database** Password, password to your postgres database. (e.g. click **Generate a password**)\\
@@ -70,16 +72,15 @@
 
 ## Setup
 
-1.  Click **Project Settings**\\
+1. Click **Project Settings**\Project Setting
+2. Get your **Project URL & API Key**
 
-    <figure><img src="../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
-2.  Get your **Project URL & API Key**
+![](<../.gitbook/assets/image (28).png>)
 
-    <figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
-3. Copy & Paste each details (_API Key, URL, Table Name, Query Name_) into **Supabase Upsert Document** node or **Supabase Load Existing** node\
+1. Copy & Paste each details (_API Key, URL, Table Name, Query Name_) into **Supabase Upsert Document** node or **Supabase Load Existing** node\
    ![](<../.gitbook/assets/image (21) (1) (1).png>)![](<../.gitbook/assets/image (29) (1).png>)
-4. **Document** can be connect with any node under [**Document Loader**](../document-loaders.md) category
-5. **Embeddings** can be connect with any node under [**Embeddings** ](../embeddings.md)category
+2. **Document** can be connect with any node under [**Document Loader**](../document-loaders.md) category
+3. **Embeddings** can be connect with any node under [**Embeddings** ](../embeddings.md)category
 
 ## Resources
 

@@ -18,6 +18,10 @@ Goal: Let the customer support chatbot ask the leads for them name , email, phon
 
 
 
+<figure><img src="../.gitbook/assets/collect leads.gif" alt=""><figcaption><p>A customer support chatbot asks visitors for their contact details and sends the information to Slack using the OpenAI call function</p></figcaption></figure>
+
+
+
 
 
 

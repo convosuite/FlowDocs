@@ -1,6 +1,28 @@
 # How to Use
 
-Now that you have tested your chatflow with the chat interface on Convosuite, you want to "export" it out to be able to use with other applications. Convosuite provides 2 ways to do that:
+#### 1 - Invite your teams
+
+Invite your team and start collaboration in your workplace. By bringing everyone together, you enforce productivity and seamless communication, foster creativity, and facilitate a more connected and efficient working environment.
+
+#### 2 -Select AI Chatflow from Marketplace
+
+Start deploying AI application for example Custom ChatGPT for your data Just connect your data sources and get a ChatGPT-like chatbot for your data. Then add it as a widget to your website or chat with it through our integrations or API.Test your AI chatflow with the chat interface on convosuite, edit and share it, go live in a minutes.
+
+**3- Unlock productivity**
+
+Empower your team to focus on significant tasks and reduce busywork with Convosuite. This tool efficiently manages emails, replies, and integrates seamlessly with Teams or Slack. It's like ChatGPT Plus but with the most powerful integrated plugins, allowing for real-time task management, AI image generation, GPT-4 access, and compatibility with various file formats. With Convosuite, you can turn ideas into apps in minutes, handle various files such as audio, video, docs, CSV, PDF, and presentations, and create content with **the latest information.**
+
+**4 - Promts Engineering Tools**
+
+With our advanced prompts engineering templates, you can create compelling job ads, write engaging blog posts, and craft effective social media ads that drive conversions. You can even generate email marketing templates from URLs, as well as write code.
+
+**5- Advanced AI Dashboard**
+
+This will display user activity and growth, usage statistics, Top active users, OpenAI usage, tracking total token, consumption, file and media interactions, usage of integrated Google Search and Dall-E capabilities, estimated time savings, productivity increase, sentiment analysis, and error rates or issues.
+
+
+
+Now after you select your chatbot template and you have tested your chatflow with the chat interface on Convosuite, you want to "export" it out to be able to use with other applications. Convosuite provides 2 ways to do that:
 
 * API
 * Embed
